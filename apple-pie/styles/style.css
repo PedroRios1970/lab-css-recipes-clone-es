@@ -4,6 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+   
 }
 
 :root {
@@ -37,7 +38,9 @@ body {
 }
 
 .color-fondo {
-    background-color: rgb(235, 241, 241, 0.5);
+
+    background-color: rgb (245,245,248);
+    //background-color: rgb(235, 241, 241, 0.5);
     margin-top: 20px;
 }
 
@@ -56,6 +59,7 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    
 }
 
 .contenedor-servicio {
@@ -72,8 +76,11 @@ header {
 }
 
 .contenedor-ingr {
-    margin: 0px;
-    padding: 25px;
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px;
     font-size: 15px;
 }
 
@@ -93,7 +100,7 @@ header {
     padding: 20px;
 }
 
-#sub2 {
+.section {
     padding: 20px 20px 20px 13px;
 }
 
@@ -111,25 +118,7 @@ ol li::before {
     counter-increment: section;
 }
 
-*/
-/*
-        ul {
-            list-style-type: "- "
-        }
-        
-        li{
-            margin-bottom:12px;
-            font-weight: 300 // esto es peso de la font;
-            font-size: 18px;
-        }
-        
-        contar una lista ordenada
-        ol li::before{
-            content :"" counter(section) ") ";
-            counter-increment: section;
-        }
 
-        */
 
 @media screen and (max-width: 700px) {
     .titulo {
